@@ -1,0 +1,90 @@
+{
+  "generated_at": "2025-09-25T13:01:41.131703Z",
+  "audits": [
+    {
+      "target": "example.com",
+      "queried_at": "2025-09-25T13:01:36.881924Z",
+      "resolved_ip": "23.192.228.80",
+      "os": null,
+      "location": {
+        "country": "United States",
+        "city": "San Jose",
+        "latitude": 37.33939,
+        "longitude": -121.89496
+      },
+      "open_ports": [
+        80,
+        443
+      ],
+      "risky_ports": [],
+      "banners": [
+        {
+          "port": 80,
+          "banner": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 310\r\nExpires: Wed, 24 Sep 2025 13:32:33 GMT\r\nDate: Wed, 24 Sep 2025 13:32:33 GMT\r\nConnection: close\r\n\r\n",
+          "labels": [
+            "HTTP"
+          ]
+        },
+        {
+          "port": 443,
+          "banner": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 312\r\nExpires: Wed, 24 Sep 2025 18:31:02 GMT\r\nDate: Wed, 24 Sep 2025 18:31:02 GMT\r\nConnection: close\r\n\r\n",
+          "labels": [
+            "HTTP"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "target": "8.8.8.8",
+      "queried_at": "2025-09-25T13:01:37.884903Z",
+      "resolved_ip": null,
+      "os": null,
+      "location": {
+        "country": "United States",
+        "city": "Mountain View",
+        "latitude": 38.00881,
+        "longitude": -122.11746
+      },
+      "open_ports": [
+        53,
+        443
+      ],
+      "risky_ports": [],
+      "banners": [
+        {
+          "port": 53,
+          "banner": "\nRecursion: enabled",
+          "labels": []
+        },
+        {
+          "port": 53,
+          "banner": "\nRecursion: enabled",
+          "labels": []
+        },
+        {
+          "port": 443,
+          "banner": "HTTP/1.1 200 OK\r\nContent-Security-Policy: object-src 'none';base-uri 'self';script-src 'nonce-AZi53kXTATBXKxNJYO7jhA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/honest_dns/1_0;frame-ancestors 'none'\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\r\nX-Content-Type-Options: nosniff\r\nContent-Security-Policy-Report-Only: script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ntdsgswbsc:55:0\r\nCross-Origin-Opener-Policy-Report-Only: same-origin; report-to=ntdsgswbsc:55:0\r\nReport-To: {\"group\":\"ntdsgswbsc:55:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ntdsgswbsc:55:0\"}],}\r\nServer: scaffolding on HTTPServer2\r\nX-XSS-Protection: 0\r\nX-Frame-Options: SAMEORIGIN\r\nDate: Wed, 24 Sep 2025 01:11:03 GMT\r\nExpires: Wed, 24 Sep 2025 01:16:03 GMT\r\nCache-Control: public, max-age=300\r\nContent-Type: text/html; charset=UTF-8\r\nAge: 78\r\nAlt-Svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000\r\nAccept-Ranges: none\r\nVary: Accept-Encoding\r\nTransfer-Encoding: chunked\r\n\r\n",
+          "labels": [
+            "HTTP",
+            "HTTPS"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "target": "203.0.113.12",
+      "queried_at": "2025-09-25T13:01:39.187434Z",
+      "resolved_ip": null,
+      "os": null,
+      "location": {},
+      "open_ports": [],
+      "risky_ports": [],
+      "banners": [],
+      "notes": [
+        "host_error: No information available for that IP."
+      ]
+    }
+  ]
+}
